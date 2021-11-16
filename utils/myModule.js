@@ -23,7 +23,7 @@ class Human {
 //export the function
 
 module.exports = {
-    hello.helloClass,
+    hello: helloClass,
     goodbye: goodbyeClass,
     add: addNumbers, 
     human: Human,
