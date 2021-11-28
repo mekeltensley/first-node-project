@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run start"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/mekeltensley/first-node-project/issues"
   },
-  "homepage": "https://github.com/mekeltensley/first-node-project#readme"
+  "homepage": "https://github.com/mekeltensley/first-node-project#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "faker": "^5.5.3"
+  }
 }

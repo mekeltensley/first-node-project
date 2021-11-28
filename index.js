@@ -6,18 +6,19 @@ const person = {
     car: {
         name: "Tesla",
         model: "Model S",
-        year: 202
+        year: 2020
     }
 }
-
+console.log(person);
 console.log(numbers);
 console.log(person.foods);
 
-const somethingElse = require('./utils/myModule');
 
-console.log(somethingElse);
 
-somethingElse.hello();
+const somethingElse = require('./utils/myModule'); // imports the module 
 
-//????????????
-console.log(somethingElse.hello()); 
+console.log(somethingElse); // this is just the object 
+
+somethingElse.hello(); // returns the string but doesn't print to terminal
+
+console.log(somethingElse.hello()); // returns and prints string 

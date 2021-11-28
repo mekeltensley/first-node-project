@@ -27,5 +27,4 @@ module.exports = {
     goodbye: goodbyeClass,
     add: addNumbers, 
     human: Human,
-    person
 }
